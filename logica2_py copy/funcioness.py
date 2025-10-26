@@ -30,8 +30,8 @@ def contar_mayores_igual(arr, umbral):
 
 
 
-print(contar_mayores_igual([12, 8, 15, 19, 10, 14], 14))  # → 3
-print(contar_mayores_igual([1, 1, 1], 2))                 # → 0
+print(contar_mayores_igual([12, 8, 15, 19, 10, 14], 14))  
+print(contar_mayores_igual([1, 1, 1], 2))                 
 
 #3
 def es_ordenado_asc(arr):
@@ -48,10 +48,10 @@ def es_ordenado_asc(arr):
             return False
     return True
 
-print(es_ordenado_asc([]))           # → True
-print(es_ordenado_asc([3]))          # → True
-print(es_ordenado_asc([1, 2, 2, 5])) # → True
-print(es_ordenado_asc([3, 2, 4]))    # → False
+print(es_ordenado_asc([]))          
+print(es_ordenado_asc([3]))          
+print(es_ordenado_asc([1, 2, 2, 5])) 
+print(es_ordenado_asc([3, 2, 4]))    
 
 #4
 def insertar_en_pos(arr, pos, x):
@@ -137,11 +137,11 @@ def insercion(arr):
 
     return nueva
 
-print(insercion([]))              # → []
-print(insercion([3]))             # → [3]
-print(insercion([3, 1, 2]))       # → [1, 2, 3]
-print(insercion([5, 2, 5, 1]))    # → [1, 2, 5, 5]
-print(insercion([1, 2, 3, 4]))    # → [1, 2, 3, 4]
+print(insercion([]))              
+print(insercion([3]))             
+print(insercion([3, 1, 2]))       
+print(insercion([5, 2, 5, 1]))    
+print(insercion([1, 2, 3, 4]))    
 
 
 #8
@@ -153,10 +153,10 @@ def buscar_lineal(arr, objetivo):
     return -1
 
 
-print(buscar_lineal([7, 2, 9, 4, 2], 2))  # → 1
-print(buscar_lineal([7, 2, 9, 4, 2], 5))  # → -1
-print(buscar_lineal([], 3))               # → -1
-print(buscar_lineal([10], 10))            # → 0
+print(buscar_lineal([7, 2, 9, 4, 2], 2))  
+print(buscar_lineal([7, 2, 9, 4, 2], 5))  
+print(buscar_lineal([], 3))               
+print(buscar_lineal([10], 10))            
 
 #9
 def buscar_binaria(arr_ordenado, objetivo):
@@ -175,10 +175,10 @@ def buscar_binaria(arr_ordenado, objetivo):
 
     return -1
 
-print(buscar_binaria([1, 2, 4, 5, 9], 5))   # → 3
-print(buscar_binaria([1, 2, 4, 5, 9], 6))   # → -1
-print(buscar_binaria([1, 2, 4, 5, 5, 9], 5)) # → 3 o 4 (cualquiera es válida)
-print(buscar_binaria([], 3))                # → -1
+print(buscar_binaria([1, 2, 4, 5, 9], 5))  
+print(buscar_binaria([1, 2, 4, 5, 9], 6))  
+print(buscar_binaria([1, 2, 4, 5, 5, 9], 5)) 
+print(buscar_binaria([], 3))                
 
 #10
 def suma_total_2d(m):
@@ -196,9 +196,9 @@ def suma_total_2d(m):
 
 
 
-print(suma_total_2d([[1, 2, 3], [4, 5, 6]]))       # → 21 (2×3)
-print(suma_total_2d([[1, 1, 1], [2, 2, 2], [3, 3, 3]]))  # → 15 (3×3)
-print(suma_total_2d([]))                           # → 0
+print(suma_total_2d([[1, 2, 3], [4, 5, 6]]))       
+print(suma_total_2d([[1, 1, 1], [2, 2, 2], [3, 3, 3]]))  
+print(suma_total_2d([]))                           
 
 #12
 def insercion(arr):
@@ -236,7 +236,6 @@ def ordenar_y_buscar(arr, objetivo):
     return (lista_ordenada, indice)
 
 
-# Prueba
 arr = [12, 5, 7, 5, 9, 1]
 objetivo = 7
 print(ordenar_y_buscar(arr, objetivo))  
