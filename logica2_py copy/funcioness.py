@@ -9,7 +9,7 @@ def sumatoria_1d(arr):
         suma += num
     return suma 
 
-
+#prueba
 print(sumatoria_1d([]))
 print(sumatoria_1d([5]))
 print(sumatoria_1d([1, 2, 3,]))
@@ -29,7 +29,7 @@ def contar_mayores_igual(arr, umbral):
     return contador
 
 
-
+#prueba
 print(contar_mayores_igual([12, 8, 15, 19, 10, 14], 14))  
 print(contar_mayores_igual([1, 1, 1], 2))                 
 
@@ -66,7 +66,7 @@ def insertar_en_pos(arr, pos, x):
     return nueva
 
 
-
+#prueba
 print(insertar_en_pos([10, 20, 30, 40], 2, 25))  
 print(insertar_en_pos([], 0, 5))                
 print(insertar_en_pos([1, 2, 3], 3, 4))         
@@ -85,7 +85,7 @@ def eliminar_en_pos(arr, pos):
     nueva = arr[:pos] + arr[pos+1:]
     return nueva
 
-
+#prueba
 print(eliminar_en_pos([4, 6, 8, 10, 12], 2))  
 print(eliminar_en_pos([1, 2, 3, 4], 0))       
 print(eliminar_en_pos([1, 2, 3, 4], 3))    
@@ -110,7 +110,7 @@ def burbuja(arr):
         if not hubo_cambio:
             break
     return nueva
-
+#prueba
 print(burbuja([]))               
 print(burbuja([3]))              
 print(burbuja([3, 1, 2]))        
@@ -137,6 +137,7 @@ def insercion(arr):
 
     return nueva
 
+#prueba
 print(insercion([]))              
 print(insercion([3]))             
 print(insercion([3, 1, 2]))       
@@ -174,7 +175,7 @@ def buscar_binaria(arr_ordenado, objetivo):
             fin = medio - 1
 
     return -1
-
+#prueba
 print(buscar_binaria([1, 2, 4, 5, 9], 5))  
 print(buscar_binaria([1, 2, 4, 5, 9], 6))  
 print(buscar_binaria([1, 2, 4, 5, 5, 9], 5)) 
@@ -195,7 +196,7 @@ def suma_total_2d(m):
     return total
 
 
-
+#prueba
 print(suma_total_2d([[1, 2, 3], [4, 5, 6]]))       
 print(suma_total_2d([[1, 1, 1], [2, 2, 2], [3, 3, 3]]))  
 print(suma_total_2d([]))                           
@@ -235,7 +236,7 @@ def ordenar_y_buscar(arr, objetivo):
     indice = buscar_binaria(lista_ordenada, objetivo)
     return (lista_ordenada, indice)
 
-
+#prueba
 arr = [12, 5, 7, 5, 9, 1]
 objetivo = 7
 print(ordenar_y_buscar(arr, objetivo))  
